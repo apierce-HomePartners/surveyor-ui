@@ -6,9 +6,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.help-section {
+  max-width: 200px;
+  height: auto;
+}
+
+#no-query-sent {
+  text-align: center;
+  font-size: large;
+}
+
+/* .hi {
+  background-color: green;
+} */

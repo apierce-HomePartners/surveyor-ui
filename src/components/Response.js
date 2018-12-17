@@ -6,7 +6,7 @@ class Response extends Component {
         return (
             <FormGroup controlId="responseTextarea">
                 <ControlLabel>Response</ControlLabel>
-                <FormControl rows="5"
+                <FormControl rows="15"
                     componentClass="textarea"
                     placeholder="N/A"
                     readOnly
